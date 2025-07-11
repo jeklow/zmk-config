@@ -63,10 +63,10 @@
 
         layer_2 {
             bindings = <
-&kp GREATER_THAN  &kp N1     &kp N2   &kp N3        &kp N4     &kp N5       &kp N6                &kp N7                 &kp N8         &kp N9           &kp N0           &kp DOUBLE_QUOTES
-&kp DELETE        &kp POUND  &kp END  &kp PG_UP     &kp PG_DN  &kp HOME     &kp LEFT_ARROW        &kp DOWN_ARROW         &kp UP_ARROW   &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp SLASH
-&kp LEFT_SHIFT    &kp MINUS  &kp SQT  &kp COMMA     &kp LBKT   &kp RBKT     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK   &kp COLON        &kp UNDERSCORE   &kp LEFT_ALT
-                                      &kp LEFT_WIN  &trans     &kp SPACE    &mt LCTRL ENTER       &trans                 &kp BACKSPACE
+&kp GREATER_THAN  &kp N1     &kp N2   &kp N3        &kp N4         &kp N5       &kp N6                &kp N7                 &kp N8         &kp N9           &kp N0           &kp DOUBLE_QUOTES
+&kp DELETE        &kp POUND  &kp END  &kp PAGE_UP   &kp PAGE_DOWN  &kp HOME     &kp LEFT_ARROW        &kp DOWN_ARROW         &kp UP_ARROW   &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp SLASH
+&kp LEFT_SHIFT    &kp MINUS  &kp SQT  &kp COMMA     &kp LBKT       &kp RBKT     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK   &kp COLON        &kp UNDERSCORE   &kp LEFT_ALT
+                                      &kp LEFT_WIN  &trans         &kp SPACE    &mt LCTRL ENTER       &trans                 &kp BACKSPACE
             >;
         };
     };
