@@ -38,7 +38,7 @@
 
         layer_1 {
             bindings = <
-&trans          &kp KP_RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp PIPE2        &kp TILDE2         &trans           &trans          &trans         &trans             &trans            &trans
+&trans          &kp KP_RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp PIPE2        &kp TILDE2         &kp AMPERSAND    &trans          &trans         &trans             &trans            &trans
 &kp AT_SIGN     &kp KP_LPAR               &kp LEFT_BRACKET   &kp KP_N3      &kp KP_MINUS     &kp KP_ASTERISK    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW    &kp KP_SLASH      &trans
 &kp LEFT_SHIFT  &kp GREATER_THAN          &kp EQUAL          &kp KP_PLUS    &kp EXCLAMATION  &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp COLON       &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_ALT
                                                              &kp LEFT_WIN   &trans           &trans             &kp KP_N4        &kp UNDERSCORE  &kp LCTRL
