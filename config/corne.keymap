@@ -9,12 +9,14 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
+    combos { compatible = "zmk,combos"; };
 
-        layer_3 {
-            bindings = <&mo 1>;
-            key-positions = <37 40>;
+    macros {
+        questionnn: questionnn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "QUESTIONNN";
         };
     };
 
@@ -38,10 +40,10 @@
 
         layer_1 {
             bindings = <
-&trans          &kp KP_RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp PIPE2        &kp TILDE2         &kp AMPERSAND    &trans          &trans         &trans             &trans            &trans
-&kp AT_SIGN     &kp KP_LPAR               &kp LEFT_BRACKET   &kp KP_N3      &kp KP_MINUS     &kp KP_ASTERISK    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW    &kp KP_SLASH      &trans
-&kp LEFT_SHIFT  &kp GREATER_THAN          &kp EQUAL          &kp KP_PLUS    &kp EXCLAMATION  &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp COLON       &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_ALT
-                                                             &kp LEFT_WIN   &trans           &trans             &kp KP_N4        &kp UNDERSCORE  &kp LCTRL
+&kp KP_NUMLOCK  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH    &kp PIPE2        &kp TILDE2         &kp AMPERSAND    &trans          &trans         &trans             &trans            &trans
+&kp AT_SIGN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp NON_US_HASH  &kp KP_MINUS     &kp KP_ASTERISK    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW    &kp KP_SLASH      &trans
+&kp LEFT_SHIFT  &kp GREATER_THAN       &kp EQUAL          &kp KP_PLUS      &kp EXCLAMATION  &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp COLON       &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_ALT
+                                                          &kp LEFT_WIN     &none            &kp LCTRL          &kp QUESTION     &kp UNDERSCORE  &kp LCTRL
             >;
         };
 
@@ -50,16 +52,16 @@
 &trans          &trans        &trans        &trans        &trans        &trans          &trans           &trans         &trans       &trans    &trans   &trans
 &kp DELETE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp PRINTSCREEN  &kp PAGE_DOWN  &kp PAGE_UP  &kp HOME  &kp END  &trans
 &kp LEFT_SHIFT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &trans           &trans         &trans       &trans    &trans   &kp LEFT_ALT
-                                            &kp LEFT_WIN  &kp KP_N1     &kp KP_N2       &trans           &trans         &kp LCTRL
+                                            &kp LEFT_WIN  &kp KP_DOT    &kp KP_COMMA    &trans           &trans         &kp LCTRL
             >;
         };
 
         layer_3 {
             bindings = <
-&kp F6          &kp F5          &kp F4        &kp F3        &kp F2        &kp F1        &trans                 &trans                 &trans             &trans      &trans  &trans
-&kp F7          &kp F8          &kp F9        &kp F10       &kp F11       &kp F12       &trans                 &kp C_VOLUME_UP        &kp C_VOLUME_DOWN  &kp K_MUTE  &trans  &trans
-&kp LEFT_SHIFT  &bt BT_CLR_ALL  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR    &trans                 &trans                 &trans             &trans      &trans  &kp LEFT_ALT
-                                              &kp LEFT_WIN  &trans        &trans        &kp LS(LC(LG(KP_N5)))  &kp LS(LC(LG(KP_N6)))  &kp LCTRL
+&kp F6          &kp F5          &kp F4        &kp F3        &kp F2        &kp F1        &trans     &trans           &trans             &trans      &trans  &trans
+&kp F7          &kp F8          &kp F9        &kp F10       &kp F11       &kp F12       &trans     &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE  &trans  &trans
+&kp LEFT_SHIFT  &bt BT_CLR_ALL  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR    &trans     &trans           &trans             &trans      &trans  &kp LEFT_ALT
+                                              &kp LEFT_WIN  &kp LEFT_ALT  &trans        &kp LG(F)  &kp LG(J)        &kp LCTRL
             >;
         };
     };
