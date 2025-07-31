@@ -13,11 +13,11 @@
     combos { compatible = "zmk,combos"; };
 
     macros {
-        questionnn: questionnn {
+        mac: mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
-            label = "QUESTIONNN";
+            bindings = <&kp LG(SPACE) &kp LBRC &kp LG(LA(L))>;
+            label = "mac";
         };
     };
 
@@ -41,7 +41,7 @@
 
         layer_1 {
             bindings = <
-&kp KP_NUMLOCK  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH    &kp PIPE2        &kp TILDE2         &kp AMPERSAND    &kp LESS_THAN   &kp DOLLAR     &kp PRCNT          &kp CARET         &trans
+&kp KP_NUMLOCK  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH    &kp PIPE2        &kp TILDE2         &kp AMPERSAND    &kp LESS_THAN   &kp DOLLAR     &kp PRCNT          &kp CARET         &mac
 &kp AT          &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp NON_US_HASH  &kp KP_MINUS     &kp KP_ASTERISK    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW    &kp KP_SLASH      &trans
 &kp LEFT_SHIFT  &kp GREATER_THAN       &kp EQUAL          &kp KP_PLUS      &kp EXCLAMATION  &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp COLON       &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_ALT
                                                           &kp LEFT_WIN     &none            &kp LCTRL          &kp QUESTION     &kp UNDERSCORE  &kp LCTRL
