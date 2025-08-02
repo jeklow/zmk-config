@@ -53,7 +53,7 @@
 &trans          &trans        &trans        &trans        &trans        &trans          &trans           &trans           &trans             &trans      &trans   &trans
 &kp DELETE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp PRINTSCREEN  &kp PAGE_DOWN    &kp PAGE_UP        &kp HOME    &kp END  &trans
 &kp LEFT_SHIFT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &trans           &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE  &trans   &kp LEFT_ALT
-                                            &kp LEFT_WIN  &kp KP_DOT    &kp KP_COMMA    &trans           &trans           &kp LCTRL
+                                            &kp LEFT_WIN  &kp KP_COMMA  &kp KP_N1       &trans           &trans           &kp LCTRL
             >;
         };
 
